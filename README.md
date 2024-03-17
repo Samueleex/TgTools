@@ -1,6 +1,5 @@
 # TgTools
 
-![](https://i.imgur.com/kx0dIHG.png)
 
 Some TgTools for Telegram!
 
@@ -40,3 +39,7 @@ In questa repo ci sono vari tools per Telegram molto utili.
 Oppure:
 
 \ `python3 AddUserGroup.py members.csv`
+
+
+
+![](https://i.imgur.com/kx0dIHG.png)
