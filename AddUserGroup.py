@@ -8,6 +8,7 @@ import csv
 import traceback
 import time
 import random
+import sys 
 
 RED = "\033[1;31m"
 GREEN = "\033[1;32m"
@@ -69,7 +70,7 @@ def add_members_to_group(client, users, target_group, mode):
             elif mode == 2:
                 user_to_add = InputPeerUser(user['id'], user['access_hash'])
             else:
-                sys.exit(RED + "[!] Invalid Mode Selected. Please Try Again.")
+                sys.exit(RED + "[!] Invalid Mode Selected. Please Try Again.")  # Correzione: Aggiunta di sys.exit()
             client(InviteToChannelRequest(target_entity, [user_to_add]))
             print(GREEN + "[+] Waiting for 60-180 sec ...")
             time.sleep(random.randrange(60, 180))
@@ -83,7 +84,6 @@ def add_members_to_group(client, users, target_group, mode):
             continue
 
 if __name__ == "__main__":
-    print_banner()
     api_id, api_hash, phone = read_config()
     telegram_client = initialize_telegram_client(api_id, api_hash, phone)
     input_file = input(GREEN + "Enter the CSV file name: " + RED)
