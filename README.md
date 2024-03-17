@@ -31,7 +31,7 @@ In questa repo ci sono vari tools per Telegram molto utili.
 
 ### CSV gen:
 
-\ `python3 WhoIsHere.py (si salveraà su members.csv)`
+\ `python3 WhoIsHere.py (si salverà su members.csv)`
 \ `python3 AddUsers.py`
 
 Oppure:
