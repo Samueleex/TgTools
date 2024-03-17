@@ -33,7 +33,6 @@ def select_group_to_scrape(groups):
     return groups[group_index]
 
 if __name__ == "__main__":
-    print_custom_banner()
     api_id, api_hash, phone = read_config()
     telegram_client = initialize_telegram_client(api_id, api_hash, phone)
     dialogs = telegram_client(telethon.tl.functions.messages.GetDialogsRequest(offset_date=None, offset_id=0, offset_peer=telethon.tl.types.InputPeerEmpty(), limit=200, hash=0))
