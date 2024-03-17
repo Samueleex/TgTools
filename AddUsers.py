@@ -14,7 +14,6 @@ API_ID = ""  # ID API Telegram
 API_HASH = ""  # hash API (32 caratteri)
 PHONE_NUMBER = ""  # numero di telefono con il prefisso internazionale
 
-
 def read_config():
     config = configparser.RawConfigParser()
     config.read('config.data')
@@ -55,7 +54,6 @@ def select_add_member_mode():
     return int(input("Input: "))
 
 if __name__ == "__main__":
-    print_custom_banner()
     api_id, api_hash, phone = read_config()
     telegram_client = initialize_telegram_client(api_id, api_hash, phone)
     input_file = input("Enter the CSV file name: ")
