@@ -13,27 +13,27 @@ In questa repo ci sono vari tools per Telegram molto utili.
 
 ### Installazione:
 
-\ 'apt install git -y'
+\ `apt install git -y`
 
-\ 'git clone https://github.com/Samueleex/TgTools'
+\ `git clone https://github.com/Samueleex/TgTools`
 
-\ 'cd TgTools'
+\ `cd TgTools`
 
-\ 'chmod +x * && python3 setup.py'
+\ `chmod +x * && python3 setup.py`
 
 
 
 ### Esecuzione tools:
 
-\ 'python3 nome.py'
+\ `python3 nome.py`
 
 
 
 ### CSV gen:
 
-\ 'python3 WhoIsHere.py (si salveraà su members.csv)'
-\ 'python3 AddUsers.py'
+\ `python3 WhoIsHere.py (si salveraà su members.csv)`
+\ `python3 AddUsers.py`
 
 Oppure:
 
-\ 'python3 AddUserGroup.py members.csv'
+\ `python3 AddUserGroup.py members.csv`
