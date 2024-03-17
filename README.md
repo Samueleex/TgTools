@@ -1,7 +1,10 @@
 # TgTools
+
+![](https://i.imgur.com/kx0dIHG.png)
+
 Some TgTools for Telegram!
 
-You can find the explanation of the code [here!](https://ethicalhacking.freeflarum.com/)
+You can find the explanation of the code [here!]([https://ethicalhacking.freeflarum.com/](https://ethicalhacking.freeflarum.com/d/1103-tgtools-telegram-automatizzato))
 
 In questa repo ci sono vari tools per Telegram molto utili.
 - **AddUserGroup.py**: Permette di aggiungere membri a un gruppo Telegram da un file CSV contenente i  membri. Gli utenti possono essere aggiunti tramite username o ID utente.
