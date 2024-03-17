@@ -5,6 +5,7 @@ import configparser
 import csv
 import random
 import time
+import sys
 
 RED = "\033[1;31m"
 GREEN = "\033[1;32m"
