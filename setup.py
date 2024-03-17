@@ -1,5 +1,8 @@
 import os, sys
 import configparser
+re="\033[1;31m"
+gr="\033[1;32m"
+cy="\033[1;36m"
 print(gr+"[+] Installing requierments ...")
 os.system('python3 -m pip install telethon')
 os.system('pip3 install telethon')
